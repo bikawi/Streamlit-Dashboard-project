@@ -3,8 +3,9 @@ from PIL import Image
 from datetime import datetime
 
 
+path=r"png/"
 
-image_users = Image.open(r'png/prs.png')
+image_users = Image.open(path+'prs.png')
 
 
 #############################Main##############################################
