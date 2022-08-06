@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 
-image_users = Image.open(r'C:\Users\AREA - ALI\Desktop\streamlit_portfolio\sample_project\png\prs.png')
+image_users = Image.open(r'png/prs.png')
 
 
 #############################Main##############################################
