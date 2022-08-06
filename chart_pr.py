@@ -2085,41 +2085,41 @@ def admin_page():
 
     admin14.add_trace(go.Bar(
             x=["JOR","KSA","UAE","QAT","EGY","MOR"],
-            y=[580,49,25,1,194,2],
+            y=[580,580,580,580,580,580],
                 name=cat1,
-                text=[580,49,25,1,194,2],
+                text=[580,580,580,580,580,580],
                 textposition='auto',
             marker=dict(
                 color=color1[0]            )        ))
     admin14.add_trace(go.Bar(
             x=["JOR","KSA","UAE","QAT","EGY","MOR"],
-            y=[580,49,25,1,194,2],
+            y=[49,49,49,49,49,49],
             name=cat2,
-            text=[580,49,25,1,194,2],
+            text=[49,49,49,49,49,49],
             textposition='auto',
             marker=dict(
                 color=color1[1]            )        ))
     admin14.add_trace(go.Bar(
             x=["JOR","KSA","UAE","QAT","EGY","MOR"],
-            y=[580,49,25,1,194,2],
+            y=[25,25,25,25,25,25],
             name=cat3,
-            text=[580,49,25,1,194,2],
+            text=[25,25,25,25,25,25],
             textposition='auto',
             marker=dict(
                 color=color1[2]            )        ))
     admin14.add_trace(go.Bar(
             x=["JOR","KSA","UAE","QAT","EGY","MOR"],
-            text=[580,49,25,1,194,2],
+            y=[194,194,194,194,194,194],
             textposition='auto',
-            y=[580,49,25,1,194,2],
+            text=[194,194,194,194,194,194],
             name=cat4,
             marker=dict(
                 color=color1[3]            )        ))
     admin14.add_trace(go.Bar(
             x=["JOR","KSA","UAE","QAT","EGY","MOR"],
-            text=[580,49,25,1,194,2],
+            y=[20,20,20,20,20,20],
             textposition='auto',
-            y=[580,49,25,1,194,2],
+            text=[20,20,20,20,20,20],
             name=cat5,
             marker=dict(
                 color=color1[4]            )        ))
