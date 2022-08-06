@@ -72,5 +72,5 @@ def app():
             
             #####################Stickness#####################################
             st.markdown(stickness_html_ad, unsafe_allow_html=True)
-            st.plotly_chart(adjust14,use_container_width=True)   
+            st.plotly_chart(adjust[13],use_container_width=True)   
             ###################################################################
