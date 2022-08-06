@@ -1794,7 +1794,7 @@ def admin_page():
     admin2.update_layout(barmode='stack',autosize=False,
                                  width=600, height=350, margin=dict(l=20, r=20, b=20, t=30), # left , right , bottom , top
                                  paper_bgcolor="#FFFFFF",plot_bgcolor="#FFFFFF", font={'size': 15},
-                         xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF'),
+                         xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF',visible=False, showticklabels=False),
                       yaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF')
                       ,legend=dict(
                                   orientation="h",
@@ -1931,7 +1931,7 @@ def admin_page():
     admin7.update_layout(autosize=False,barmode='stack',
                              width=600, height=300, margin=dict(l=20, r=20, b=20, t=30), # left , right , bottom , top
                              paper_bgcolor="#FFFFFF",plot_bgcolor="#FFFFFF", font={'size': 15},
-                             xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF'),
+                             xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF',visible=False, showticklabels=False),
                                            yaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF')
                                            ,legend=dict(
                                                        orientation="h",
@@ -2010,7 +2010,7 @@ def admin_page():
     admin10.update_layout(autosize=False,barmode='stack',
                              width=600, height=300, margin=dict(l=20, r=20, b=20, t=30), # left , right , bottom , top
                              paper_bgcolor="#FFFFFF",plot_bgcolor="#FFFFFF", font={'size': 15},
-                             xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF'),
+                             xaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF',visible=False, showticklabels=False),
                                            yaxis=dict(showgrid=False,showline=False,zerolinecolor='#FFFFFF')
                                            ,legend=dict(
                                                        orientation="h",
