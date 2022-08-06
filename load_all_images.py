@@ -1,6 +1,7 @@
 from PIL import Image
 
-path=r"C:\Users\AREA - ALI\Desktop\streamlit project\projects\Draft\app\png\\"
+path=r"png/"
+
 
 def load_images():
     fire_Logo = Image.open(path+"Firebase_Logo.png")
