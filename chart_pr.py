@@ -4,7 +4,11 @@ from load_all_images import load_images
 import plotly.figure_factory as ff
 
 
-date = ["datetime.date(2021, 11, 1)","datetime.date(2021, 11, 2)","datetime.date(2021, 11, 3)","datetime.date(2021, 11, 4)","datetime.date(2021, 11, 5)","datetime.date(2021, 11, 6)","datetime.date(2021, 11, 7)","datetime.date(2021, 11, 8)","datetime.date(2021, 11, 9)","datetime.date(2021, 11, 10)","datetime.date(2021, 11, 11)","datetime.date(2021, 11, 12)","datetime.date(2021, 11, 13)","datetime.date(2021, 11, 14)","datetime.date(2021, 11, 15)","datetime.date(2021, 11, 16)","datetime.date(2021, 11, 17)","datetime.date(2021, 11, 18)","datetime.date(2021, 11, 19)","datetime.date(2021, 11, 20)","datetime.date(2021, 11, 21)","datetime.date(2021, 11, 22)","datetime.date(2021, 11, 23)","datetime.date(2021, 11, 24)","datetime.date(2021, 11, 25)","datetime.date(2021, 11, 26)","datetime.date(2021, 11, 27)","datetime.date(2021, 11, 28)","datetime.date(2021, 11, 29)","datetime.date(2021, 11, 30)"]
+date = ["2021-11-01","2021-11-02","2021-11-03","2021-11-04","2021-11-05","2021-11-06",
+        "2021-11-07","2021-11-08","2021-11-09","2021-11-10","2021-11-11","2021-11-12",
+        "2021-11-13","2021-11-14","2021-11-15","2021-11-16","2021-11-17","2021-11-18",
+        "2021-11-19","2021-11-20","2021-11-21","2021-11-22","2021-11-23","2021-11-24",
+        "2021-11-25","2021-11-26","2021-11-27","2021-11-28","2021-11-29","2021-11-30"]
 
 gantt_list = [{"Task": "Brand 1",
     "Start": "datetime.date(2021, 11, 21)",
