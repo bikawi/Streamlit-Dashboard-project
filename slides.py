@@ -60,7 +60,7 @@ def app():
     ###########################################################################
     col1, col2 ,col3 = st.columns(3)
     with col1:
-        st.image(image_users, caption='Sunrise by the mountains',use_column_width=True)
+        st.image(image_users, caption='PowerPoint Report',use_column_width=True)
         genre = st.radio(
          "What Type of Report Do You Want ?",
          ('Employee', 'Board'))
@@ -81,7 +81,7 @@ def app():
          
     with col2:
         
-        st.image(image_users, caption='Sunrise by the mountains',use_column_width=True)
+        st.image(image_users, caption='PowerPoint Report',use_column_width=True)
         selected_camp = st.selectbox(
          'Choose Camping',
          camp_name,index =0,key=1)
@@ -94,7 +94,7 @@ def app():
          
          
     with col3:
-        st.image(image_users, caption='Sunrise by the mountains',use_column_width=True)
+        st.image(image_users, caption='PowerPoint Report',use_column_width=True)
         
         merchant_users = st.button('Download Merchant Presentation')
         
